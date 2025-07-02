@@ -56,9 +56,10 @@
   </div>
 
   <div class = "Section">                                   
-   <h2>10% off your first purchase</h2>
-   <p>Click here to find out more, hurry while the offer lasts!</p>
+   <h2>Special offer!</h2>
+   <p>10% off your first purchase, scroll down for details</p>
    <img src = "Product2.gif" />
+   <div id = "Button"><button onclick = "Email()">Click here to get 10% off your first purchase</button></div>
   </div>
 
   <div class = "Logo"><img src = "Logo.gif" /></div>
@@ -67,5 +68,18 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     All Rights Reserved</strong>
   </p>
+
+  <script>
+   function Email() {
+      let text = prompt("Please enter your email address", "john.smith@example.com");
+      while (true) {
+         if (text.includes("example")) {text = prompt("Don\'t use the example email address, come on!", "Use your own")}
+         if (text.includes("@") == false) {text = prompt("That\'s not a real email address!", "john.smith@example.com")}
+         else {document.getElementById("Button").innerHTML = "Thank you, an email has been sent to " + text +
+               " (don\'t bother checking your inbox, you received nothing from this mock site)"; return    }
+                   }
+      
+                    }
+  </script>
  </body>
 </html>

@@ -20,6 +20,9 @@ p {margin-left: 10px; margin-right: 10px; color: yellow}
 li {margin-left: 10px; color: yellow}
 .Section:hover li {color: black}
 
+#Button {margin-left: 10px; color: yellow}
+.Section:hover #Button {color: black}
+
 .Section img {max-width: 100%}
 
 .Middle {text-align: center; color: black}
