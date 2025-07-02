@@ -1,0 +1,27 @@
+body {font-family: Arial, sans-serif; background: 
+      linear-gradient(to bottom, black 10%, yellow 40%, white 90%)}
+
+h1 {padding: 10px 10px 0px 10px; width: inherit; box-sizing: border-box; min-width: 550px}
+
+.Layer {min-height: 1562px; background-image: url("Product.gif")}
+
+.Section {background-size: cover; box-sizing: border-box; max-width: 800px; padding: 10px 75px 10px 75px;
+          border-style: solid; background-color: rgba(0, 0, 0, 0.5); margin: auto;  
+          border-width: 0; margin-bottom: 50px; width: inherit; position: relative}
+.Section:hover {background-color: rgba(255, 255, 0, 0.5)}          
+
+h2 {padding-left: 3px; padding-right: 3px; color: yellow; background-color: black; 
+    -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: red}
+.Section:hover h2 {color: black; background-color: yellow; -webkit-text-stroke-color: white}
+
+p {margin-left: 10px; margin-right: 10px; color: yellow}
+.Section:hover p {color: black}
+
+li {margin-left: 10px; color: yellow}
+.Section:hover li {color: black}
+
+.Section img {max-width: 100%}
+
+.Middle {text-align: center; color: black}
+
+.Logo img {display: block; margin-left: auto; margin-right: auto}
